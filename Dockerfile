@@ -7,7 +7,7 @@ RUN apk add --update curl && \
 
 WORKDIR /usr/src
 
-RUN curl -L -o saiku.tar.gz \
+RUN curl -L -o saiku-latest.zip \
       http://www.meteorite.bi/downloads/saiku-latest.zip \
   && unzip saiku-latest.zip \
   && rm -f saiku-latest.zip
