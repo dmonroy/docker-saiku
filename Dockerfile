@@ -1,4 +1,4 @@
-FROM openjdk:7-alpine
+FROM openjdk:7
 
 MAINTAINER Darwin Monroy <contact@darwinmonroy.com>
 
