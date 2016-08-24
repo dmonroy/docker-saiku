@@ -2,9 +2,6 @@ FROM openjdk:7
 
 MAINTAINER Darwin Monroy <contact@darwinmonroy.com>
 
-RUN apk add --update curl && \
-    rm -rf /var/cache/apk/*
-
 WORKDIR /usr/src
 
 RUN curl -L -o saiku-latest.zip \
